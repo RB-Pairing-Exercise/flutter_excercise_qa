@@ -4,10 +4,15 @@ A base Flutter project used for pairing scenarios
 
 ## Getting Started
 
-The following is a take home exercise. Please limit your time spent on this to 2 hours. Use any modern tools, testing frameworks and resources available to you and be prepared to discuss your solutions and make additional changes during the interview process.
+This repo contains a take home exercise. Below is the scenario that was used to generate the attached Flutter application. Please do the following:
+1) Review the scenario and note the requirements
+2) Get the project running on your local machine (use whichever IDE you prefer)
+3) Be prepared during the interview to discuss how you would develop both manual and automated testing processes for this project.
 
-Implement fetching search results data from the following API and render a list of assets. Show the asset in a list with the assetDescription, image (imageUrl), location (using locationCountry, locationState and locationCity), eventAdvertisedName and formatted eventStartDate. The location should show in the format City, State, Country (in the USA) and the format City, Country (outside the USA). 
+## Scenario
 
-curl -i -X POST -H 'Content-Type: application/json' -d '{"from": 0, "size": 20}' https://api.marketplace.ritchiebros.com/marketplace-listings-service/v1/api/search
-
-Stretch goal: If you have time implement paginating the results so the user sees more results as they scroll (the from and size parameters can be used to accomplish this).
+The application fetches search results from an API and renders a list of assets.
+The asset list is shown with description, image, location, event name and formatted event start date.
+Location data is formatted city, state, country inside the USA and city, country outside the USA.
+The asset list is paginated so the user can see more results as they scroll.
+When tapped an asset renders an item details screen.
