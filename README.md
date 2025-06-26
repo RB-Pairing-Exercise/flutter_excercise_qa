@@ -5,13 +5,14 @@ A base Flutter project used for pairing scenarios
 ## Getting Started
 
 This repo contains a take home exercise. Below is the scenario that was used to generate the attached Flutter application. Please do the following:
+
 1) Review the scenario and note the requirements
 2) Get the project running on your local machine (use whichever IDE you prefer).
-    a) Navigate to the root directory of the project
-    b) In the terminal execute "flutter pub get"
-    c) Ensure you have your Android Emulator or iOS Simulator running
-    d) In the terminal execute "flutter run"
-    e) Ensure the application you're running matches the scenario described below - If it doesn't you may be running a Flutter demo application and not the supplied project. 
+   - a) Navigate to the root directory of the project
+   - b) In the terminal execute "flutter pub get"
+   - c) Ensure you have your Android Emulator or iOS Simulator running
+   - d) In the terminal execute "flutter run"
+   - e) Ensure the application you're running matches the scenario described below - If it doesn't you may be running a Flutter demo application and not the supplied project.
 3) Be prepared during the interview to discuss how you would develop both manual and automated testing processes for this project.
 
 ## Scenario
